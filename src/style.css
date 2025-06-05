@@ -1,0 +1,64 @@
+body {
+  background-color: white;
+  color: #323232;
+  font-family: "Michroma", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0 0 5px;
+}
+
+a {
+  color: #93a47c;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 600px;
+  margin: 60px auto 20px;
+  background-color: #93a47c;
+  padding: 30px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+  border-radius: 10px;
+}
+
+.cities-clocks {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0;
+  padding: 20px 0;
+  border-bottom: 1px solid;
+}
+
+.cities-clocks:last-child {
+  border: none;
+}
+
+.date {
+  font-size: 12px;
+  opacity: 0.7;
+}
+
+.time {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  font-size: 10px;
+  opacity: 0.7;
+}
